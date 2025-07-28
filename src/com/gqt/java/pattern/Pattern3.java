@@ -1,4 +1,4 @@
-package com.gqt.java.pattern;
+ package com.gqt.java.pattern;
 import java.util.Scanner;
 public class Pattern3 {
 

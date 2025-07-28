@@ -8,17 +8,17 @@ public class Pattern22 {
 		int rows=sc.nextInt();
 		
 		 for (int i = 1; i <= rows; i++) {
-	            // Print leading spaces
+	            
 	            for (int s = 1; s <= rows - i; s++) {
 	                System.out.print(" ");
 	            }
 
-	            // Print i value (2*i - 1 times)
+	            
 	            for (int j = 1; j <= 2 * i - 1; j++) {
 	                System.out.print(i);
 	            }
 
-	            System.out.println(); // Next line
+	            System.out.println(); 
 	        }
 sc.close();
 	}

@@ -8,7 +8,7 @@ public class Pattern12 {
 		int n=s.nextInt();
 		System.out.println("Enter no of Coloums:");
 		int m=s.nextInt();
-		int c=25;
+		int c=n*m;
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=m;j++) {
 				System.out.print(c+" ");
